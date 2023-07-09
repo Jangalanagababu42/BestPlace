@@ -9,6 +9,8 @@ function DestinationPage() {
   const selectedCountry = state.places.countries.filter(
     (conti) => Number(conti.id) === Number(destId)
   )[0];
+  console.log(destId, "destId");
+  console.log(selectedCountry, "selindes");
   return (
     <div>
       <div className=" text-primary font-semibold text-lg">
